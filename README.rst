@@ -12,7 +12,7 @@ This is a collaborative process, so dig in and try to help out! There are tons
 of details missing, just waiting for you to add them! So send us a pull
 request, please!
 
-This is all licensed under the terms of the `Creative Commons Zero`_ license.
+This is all licensed under the terms of the `Creative Commons Zero`_ license
 
 Read this in `简体中文`_ (simplified Chinese), `日本語`_ (Japanese), `한국어`_
 (Korean) and `Spanish`_. NOTE: these have not been reviewed by the alex/what-happens-when
@@ -29,7 +29,7 @@ The "g" key is pressed
 ----------------------
 The following sections explain the physical keyboard actions
 and the OS interrupts. When you press the key "g" the browser receives the
-event and the auto-complete functions kick in.
+event and the auto-complete functions kick in
 Depending on your browser's algorithm and if you are in
 private/incognito mode or not various suggestions will be presented
 to you in the dropdown below the URL bar. Most of these algorithms sort
@@ -47,8 +47,8 @@ bottom of its range. At this point, an electrical circuit specific to the enter
 key is closed (either directly or capacitively). This allows a small amount of
 current to flow into the logic circuitry of the keyboard, which scans the state
 of each key switch, debounces the electrical noise of the rapid intermittent
-closure of the switch, and converts it to a keycode integer, in this case 13.
-The keyboard controller then encodes the keycode for transport to the computer.
+closure of the switch, and converts it to a keycode integer, in this case 13
+The keyboard controller then encodes the keycode for transport to the computer
 This is now almost universally over a Universal Serial Bus (USB) or Bluetooth
 connection, but historically has been over PS/2 or ADB connections.
 
